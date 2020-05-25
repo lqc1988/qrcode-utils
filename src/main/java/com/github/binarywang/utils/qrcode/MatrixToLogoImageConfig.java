@@ -10,9 +10,9 @@ import java.awt.*;
  */
 public class MatrixToLogoImageConfig {
     //logo默认边框颜色
-    public static final Color DEFAULT_BORDER_COLOR = Color.RED;
+    public static final Color DEFAULT_BORDER_COLOR = Color.lightGray;
     //logo默认边框宽度
-    public static final int DEFAULT_BORDER = 2;
+    public static final int DEFAULT_BORDER = 0;
     //logo大小默认为照片的1/5
     public static final int DEFAULT_LOGO_PART = 5;
 
