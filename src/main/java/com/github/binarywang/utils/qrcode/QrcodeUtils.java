@@ -193,7 +193,7 @@ public class QrcodeUtils {
      * @param file 二维码文件内容
      * @return 二维码的内容
      */
-    public static String decodeQrcode(File file) throws IOException, NotFoundException {
+    public static String decodeQRCode(File file) throws IOException, NotFoundException {
         BufferedImage image = ImageIO.read(file);
         LuminanceSource source = new BufferedImageLuminanceSource(image);
         Binarizer binarizer = new HybridBinarizer(source);
