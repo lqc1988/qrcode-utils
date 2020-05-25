@@ -29,11 +29,11 @@ import java.util.Map;
  * @author <a href="https://github.com/binarywang">binarywang(Binary Wang)</a>
  * </pre>
  */
-public class QrcodeUtils {
+public class QRCodeUtils {
     private static final int DEFAULT_LENGTH = 400;// 生成二维码的默认边长，因为是正方形的，所以高度和宽度一致
     private static final String FORMAT = "jpg";// 生成二维码的格式
 
-    private static Logger logger = LoggerFactory.getLogger(QrcodeUtils.class);
+    private static Logger logger = LoggerFactory.getLogger(QRCodeUtils.class);
 
     /**
      * 根据内容生成二维码数据
